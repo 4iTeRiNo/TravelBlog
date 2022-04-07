@@ -456,6 +456,13 @@ img{
 	top:0;
 	left: 0;
 	width: 100%;
+	transform: .55s linear;
+	padding-bottom: 20px;
+	z-index: 5;
+}
+
+.header_active{
+	background: #0E1D28;
 }
 
 .header__wrapper{
@@ -743,3 +750,185 @@ img{
 
 /* Places stales end */
 
+ /* Tuors styles start  */
+
+	.tours{
+		margin-bottom: 139px;
+	}
+
+	.tours_tour{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0 108px;
+		margin-bottom: 77px;
+		/* align-items: center; */
+	}
+
+	.tour_thumd_2{
+		grid-gap: 270px 0;
+	}
+
+	.tour_title{
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 85px;
+		margin-top: 10px;
+	}
+
+	.tour_desc{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 58px;
+		
+	}
+
+	.tour_info{
+		padding-left: 43px;
+	}
+
+	.tour_link{
+		display: inline-block;
+		padding-right: 59px;
+		font-size: 16px;
+		line-height: 24px;
+		text-decoration: none;
+		color: #006DFE;
+		background: url(../img/errow\ rigth.svg) no-repeat 95% center;
+		transition: .2s all;
+		margin-bottom: 112px;
+	}
+
+	.tour_link:hover, .tour_link:focus{
+		background: url(../img/errow\ rigth.svg) no-repeat right center;
+		color: #034eb1;
+	}
+
+ /* Tuors styles end  */
+
+ /* top place style start */
+	.top{
+		margin-bottom: 86px;
+	}
+
+	.top_title{
+		margin-bottom: 54px;
+	}
+
+	.top_card{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.top_cards{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 57px;
+	}
+
+	.top_card-pic{
+		position: relative;
+		margin-bottom: 45px;
+	}
+	
+	.top_card-stats{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: flex-end;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 87%;
+		background: rgba(21, 24, 36, 0.6);
+		padding: 16px 25px;
+	}
+	
+	.top_card-title{
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 24px;
+			color: #fff;
+			margin: 0 auto 0 0 ;
+		}
+
+	.top_card-likes{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #fff;
+		background: url(../img/higeico.svg) no-repeat right;
+		padding-right: 20px;
+		margin-right: 14px;
+	}
+
+	.top_card-commments{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #fff;
+		background: url(../img/comico.svg) no-repeat right;
+		padding-right: 23px;
+	}
+
+	.top_card-desc{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 31px;
+	}
+
+	.top_card-more{
+		padding: 12px 19px;
+		font-size: 16px;
+		color: #fff;
+		background-color: #1B7DFF;
+		text-decoration: none;
+		margin-bottom: 144px;
+		width: 90px;
+		margin: auto 0 0 0; 
+	}
+	
+	.top_card-more:hover, .top_card-more:focus, .top_card-more:active{
+		background-color: #034eb1;
+	}
+		
+
+ /* top place style end */
+
+ /* Videos style start */
+
+	 .videos{
+
+		width: 100%;
+	 }
+
+	 .videos_wrapper{
+		 max-width: 1440px;
+		 margin:  0 auto;
+		 position: relative;
+		}
+
+		.video_element{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+	 .video_item{
+		 padding-top: 56.25%;
+	 }
+
+ /* Videos style end */
+
+ /* Footer style start */
+
+	 .footer{
+		 background: #0E1D28;
+		 padding: 119px 0;
+	 }
+ 
+ /* Footer style end */
