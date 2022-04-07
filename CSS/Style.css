@@ -402,7 +402,7 @@ html{
 	box-sizing: border-box;
 }
 
-*::before, *::after{
+*,*::before, *::after{
 	box-sizing: inherit;
 }
 
@@ -423,11 +423,14 @@ img{
 .wrapper{
 	max-width: 1060px;
 	margin: 0 auto;
+	padding: 0 16px;
 }
 
 .wrapper-full{
-	max-width: 1262px;
+	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 16px;
+
 }
 
 .seaction__title{
@@ -568,10 +571,11 @@ img{
 
 .benefits{
 	margin-bottom: 131px;
+	
 }
 
 .benefits__wrapper{
-	width: 1262px;
+	width: 1260px;
 	background-color: #fff;
 	margin: 0 auto;
 	box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
@@ -580,15 +584,14 @@ img{
 
 
 .benefits__title{
-	width: 84.14%;
-	font-weight: 500;
+	width: 100%;
 	font-size: 35px;
 	line-height: 42px;
 	position: absolute;
 	top: 0; 
 	left: 0;
 	transform: translateY(-100%);
-	background-color: #fff;
+	background-color:#fff;
 	padding: 93px 100px 88px 100px;
 }
 
@@ -597,6 +600,8 @@ img{
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 55px;
 	padding: 0 100px;
+	background-color: #fff;
+	width: auto;
 }
 
 .benefits__card{
@@ -604,7 +609,7 @@ img{
 }
 
 .benefits__card-pic{
-	max-width: 66px;
+	max-width: 100%;
 	margin-bottom: 37px;
 }
 
@@ -840,7 +845,7 @@ img{
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		width: 87%;
+		width: 100%;
 		background: rgba(21, 24, 36, 0.6);
 		padding: 16px 25px;
 	}
@@ -930,5 +935,43 @@ img{
 		 background: #0E1D28;
 		 padding: 119px 0;
 	 }
+
+	 .footer_item{
+		 display: flex;
+		 flex-wrap: wrap;
+	 }
+
+	 .footer_logo{
+		 width: 50%;
+	 }
+
+	 .footer_nav{
+		 width: 50%;
+		 display: flex;
+		 flex-wrap: wrap;
+		 justify-content: space-between;
+	 }
+
+	 .footer_menu-title{
+			color: #fff;
+			margin-bottom: 3px;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 24px;
+	 }
+
+	 .footer_menu-link{
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			padding-bottom: 4px;
+			color: #fff;
+			text-decoration: none;
+	 }
+
+	 .footer_menu-link:hover, .footer_menu-link:focus, .footer_menu-link:active{
+		 opacity: .55;
+	 }
+
  
  /* Footer style end */
